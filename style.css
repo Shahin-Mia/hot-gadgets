@@ -67,6 +67,7 @@
     padding: 30px;
     height: 200px;
     box-shadow: 2px 2px 10px lightgray;
+    cursor: pointer;
 }
 
 .card-img-bag {
@@ -90,4 +91,9 @@
     background-image: linear-gradient(to right, orange 0%, salmon 100%);
     width: 50px;
     border-radius: 10px;
+}
+
+.card-img:hover,
+.card-img-bag:hover {
+    box-shadow: 2px 2px 10px orange;
 }
